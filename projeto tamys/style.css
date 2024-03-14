@@ -69,6 +69,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 3.12rem;
+    width: 100%;
 }
 .container_foto{
     width: 10rem;
@@ -76,11 +77,19 @@ body {
     margin: 0.5rem 0 2rem 0;
     
 }
-
+.imagem_da_logo{
+    width: 27.5rem;
+}
 .fotos_links{
     display: flex;
     flex-direction: row;
-    ;
+    max-width: 100%;
+    gap: 0.5rem;
+    
+}
+        
+.titulos_links {
+    font-size: 1.3rem;
 }
 
 .container__coracao {
@@ -93,10 +102,11 @@ body {
 .coracao{
     position: absolute;
     display: flex;
+    
 }
 
 .coracao span{
-    background-image: url(/assents/coracao.png);
+    background-image: url(./assets/coracao.png);
     width: 2.5rem;
     height: 1.75rem;
     animation: subir calc(30s / var(--i)) linear infinite;
@@ -129,12 +139,21 @@ body {
         width: auto;
         height: auto;
     }
-    .container__coracao {
-        width: 100%;
+
+    .apresentacao{
+        display: flex;
+        padding: 5%;
     }
+    .container {
+        display: none;
+    }
+    .imagem_da_logo{
+        width: 21.8rem;
+    }
+
+
+
     .apresentacao__conteudo{
         justify-content: center;
     }
-    #navbar{display: none;}
-    .btn-toggle{display: block;}
 }
