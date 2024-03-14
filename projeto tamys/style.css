@@ -70,6 +70,18 @@ body {
     align-items: center;
     gap: 3.12rem;
 }
+.container_foto{
+    width: 10rem;
+    text-align: center;
+    margin: 0.5rem 0 2rem 0;
+    
+}
+
+.fotos_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .container__coracao {
     height: 100vh;
