@@ -75,6 +75,7 @@ body {
     width: 10rem;
     text-align: center;
     margin: 0.5rem 0 2rem 0;
+    border-radius: 50%;
     
 }
 .imagem_da_logo{
@@ -90,6 +91,8 @@ body {
         
 .titulos_links {
     font-size: 1.3rem;
+    font-family: var(--fonte-paragrafo);
+    color: var(--cor-secundaria);
 }
 
 .container__coracao {
@@ -149,6 +152,12 @@ body {
     }
     .imagem_da_logo{
         width: 21.8rem;
+    }
+    
+    .fotos_links{
+        display: flex;
+        flex-direction: column;
+
     }
 
 
